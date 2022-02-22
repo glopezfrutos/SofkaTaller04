@@ -3,10 +3,7 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-
-    // TODO Ejercicio #2
-        //¿Es posible ejecutar un programa en java que contenga varias clases con métodos main? En
-        // caso positivo, ¿cómo se determina el punto de entrada a un programa?
+        System.out.println("Main");
 
     // TODO Ejercicio #3
         //Escriba un programa en java que genere aleatoriamente (Ayuda: Vea la clase Math para saber
