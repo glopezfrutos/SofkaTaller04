@@ -81,7 +81,7 @@ public class Ejercicio3 {
                     default -> System.out.println("Elija una opción entre 1 y 3");
                 }
             } catch (InputMismatchException e) {
-                System.out.println("Por favor elegir un número");
+                System.out.println("Por favor, elija una de las siguientes opciones para ordenarlos:");
                 scan.next();
             }
         }
