@@ -183,7 +183,7 @@ public class Vehicle {
                 option = scan.nextInt();
                 switch (option) {
                     case 1 -> new Vehicle(4, 2022, "terrestre");
-                    case 2 -> System.out.println("Actualmente hay " + vehicleCount + " vehículos creados.");
+                    case 2 -> System.out.println("Actualmente hay " + vehicleCount + " vehículos creados.\n");
                     case 3 -> exit();
                     default -> System.out.println("Elija una opción entre 1 y 3");
                 }
